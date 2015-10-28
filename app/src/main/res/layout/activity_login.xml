@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oschina_logo" />
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:text="@string/login_dialog_account"/>
+        
+        <EditText
+            android:id="@+id/login_account_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:inputType="textCapCharacters"
+            android:imeOptions="actionNext"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:hint="@string/login_dialog_account_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:text="@string/login_dialog_password"/>
+        
+        <EditText
+            android:id="@+id/login_passwd_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:hint="@string/login_dialog_password_hint" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+        
+        <CheckBox 
+            android:id="@+id/login_remember_checkbox"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:text="@string/login_dialog_rememberMe"/>
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/login_button"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:minHeight="45dip"
+        android:layout_marginTop="20dip"
+        style="@style/GreenButtonStyle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/login_dialog_login"/>
+</LinearLayout>

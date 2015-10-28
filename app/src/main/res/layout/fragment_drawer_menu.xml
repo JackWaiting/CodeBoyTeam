@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/menu_user_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_item_selector"
+            android:paddingLeft="20dip"
+            android:paddingTop="20dip"
+            android:paddingBottom="20dip" >
+
+            <ImageView
+                android:id="@+id/user_info_userface"
+                android:layout_width="72dip"
+                android:layout_height="72dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/default_avatar" />
+
+            <LinearLayout
+                android:id="@+id/user_info_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_alignTop="@id/user_info_userface"
+                android:layout_alignBottom="@id/user_info_userface"
+                android:layout_toRightOf="@id/user_info_userface"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/user_info_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18" />
+                
+                <ImageView
+                    android:id="@+id/user_info_gender"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_marginTop="10dip"
+                    android:src="@drawable/widget_gender_man" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/user_info_login_tips_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_alignTop="@id/user_info_userface"
+                android:layout_alignBottom="@id/user_info_userface"
+                android:layout_toRightOf="@id/user_info_userface"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/main_menu_login_tips"
+                    android:textSize="@dimen/text_size_18" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        
+        <include layout="@layout/horizontal_divider_view"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/menu_item_news"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_news" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_qa"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_question_ask" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_tweet"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_tweet" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_software"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_software" />
+            </LinearLayout>
+            
+            <include layout="@layout/horizontal_divider_view"/>
+
+            <LinearLayout
+                android:id="@+id/menu_item_active"
+                style="@style/MenuItemLayoutStyle" >
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/frame_title_active" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/horizontal_divider_view"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<resources>
+    <string-array name="post_pub_options">
+        <item>提问</item>
+        <item>分享</item>
+        <item>综合</item>
+        <item>职业</item>
+        <item>站务</item>
+    </string-array>
+</resources>

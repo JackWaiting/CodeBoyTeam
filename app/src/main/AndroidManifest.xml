@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.codeboy.app.oschina">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.codeboy.app.oschina.OSChinaApplication"
+        android:theme="@style/OSChinaAppTheme" >
+        <activity
+            android:name="com.codeboy.app.oschina.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.codeboy.app.oauth.weibo.WBAuthActivity" />
+
+        <!-- 系统设置 -->
+        <activity
+            android:name="com.codeboy.app.oschina.SettingActivity"
+            android:label="@string/main_menu_setting"
+            android:screenOrientation="portrait"/>
+
+        <!-- 登录 -->
+        <activity
+            android:name="com.codeboy.app.oschina.LoginActivity"
+            android:label="@string/login_dialog_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <!-- 我的资料 -->
+        <activity
+            android:name="com.codeboy.app.oschina.UserInfoActivity"
+            android:label="@string/userinfo_title"
+            android:screenOrientation="portrait" />
+
+        <!-- 内置浏览器 -->
+        <activity
+            android:name="com.codeboy.app.oschina.OSChinaWebBrowser"
+            android:screenOrientation="portrait" />
+
+        <!-- 资讯详情 -->
+        <activity
+            android:name="com.codeboy.app.oschina.NewsDetailActivity"
+            android:label="@string/news_detail_head_title"
+            android:screenOrientation="portrait"/>
+
+        <!-- 博客详情 -->
+        <activity
+            android:name="com.codeboy.app.oschina.BlogDetailActivity"
+            android:label="@string/blog_detail_head_title"
+            android:screenOrientation="portrait"/>
+
+        <!-- 问答详情 -->
+        <activity
+            android:name="com.codeboy.app.oschina.QADetailActivity"
+            android:label="@string/question_detail_head_title"
+            android:screenOrientation="portrait" />
+
+        <!-- 动弹详情 -->
+        <activity
+            android:name="com.codeboy.app.oschina.TweetDetailActivity"
+            android:label="@string/tweet_detail_head_title"
+            android:screenOrientation="portrait" />
+
+        <!-- 留言消息详情 -->
+        <activity
+            android:name="com.codeboy.app.oschina.MessageDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 软件详情 -->
+        <activity
+            android:name="com.codeboy.app.oschina.SoftwareDetailActivity"
+            android:label="@string/software_detail_head_title"
+            android:screenOrientation="portrait" />
+
+        <!-- 我要发贴 -->
+        <activity
+            android:name="com.codeboy.app.oschina.PublishPostActivity"
+            android:label="@string/question_pub_head_title"
+            android:screenOrientation="portrait"/>
+
+        <!-- 发布动弹 -->
+        <activity
+            android:name="com.codeboy.app.oschina.PublishTweetActivity"
+            android:label="@string/frame_title_tweet_send"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+
+        <!-- 我的收藏夹 -->
+        <activity
+            android:name="com.codeboy.app.oschina.FavoriteActivity"
+            android:label="@string/favorite_headline_title"
+            android:screenOrientation="portrait"/>
+
+        <!-- 我的好友 -->
+        <activity
+            android:name="com.codeboy.app.oschina.FriendsActivity"
+            android:label="@string/friends_headline_title"
+            android:screenOrientation="portrait"/>
+
+        <!-- 友盟统计模块 Start-->
+        <!-- Update Activitys Start -->
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:process=":DownloadingService" />
+
+        <!-- Update Activitys End -->
+        <meta-data android:name="UMENG_APPKEY" android:value="5351f8a956240b09fb05cbe7"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="Git版" />
+        <!-- 友盟统计模块 End-->
+    </application>
+</manifest>

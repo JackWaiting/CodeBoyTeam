@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<resources>
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="xml_parser_failed">数据解析异常</string>
+    <string name="io_exception_error">文件流异常</string>
+    <string name="http_status_code_error">网络异常，错误码：%d</string>
+    <string name="http_exception_error">网络异常，请求超时</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="app_run_code_error">应用程序运行时异常</string>
+    
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="back_exit_tips">再按一次返回键退出应用</string>
+    
+    <string name="app_error">应用程序错误</string>
+    <string name="app_error_message">很抱歉，应用程序出现错误，即将退出。\n请提交错误报告，我们会尽快修复这个问题！</string>
+    <string name="submit_report">提交报告</string>
+    
+    <string name="load_more">更多</string>
+    <string name="load_ing">加载中···</string>
+    <string name="load_full">已加载全部</string>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_error">加载数据出错</string>
+    
+    <string name="new_data_toast_message">有 %d 条更新</string>
+    <string name="new_data_toast_none">没有新更新</string>
+    
+    <string name="tips_check_sdcard">请检查SD卡是否挂载</string>
+    
+    <string name="loading_userinfo">正在加载资料,请稍候...</string>
+    <string name="loaded_userinfo">加载完毕</string>
+    <string name="upload_user_avatar">正在上传头像,请稍候...</string>
+    <string name="upload_user_avatar_success">上传头像成功！</string>
+    <string name="upload_user_avatar_error">无法保存上传的头像，请检查SD卡是否挂载</string>
+    <string name="upload_user_avatar_error2">图像不存在，上传失败。</string>
+    
+    <string name="select">选择</string>
+    <string name="share">分享</string>
+    <string name="sharing">分享中...</string>
+    <string name="publishing">发布中...</string>
+    <string name="choose_image">请选择图片文件！</string>
+    <string name="delete_image">确定删除该图片吗？</string>
+    <string name="delete_tweet">确定删除该动弹吗？</string>
+    <string name="delete_blog">确定删除该博客吗？</string>
+    <string name="republish_tweet">网络超时，是否重新发布动弹？</string>
+    <string name="clearwords">清除文字吗？</string>
+    
+    <string name="msg_login_request">您尝未登录，请登录后再操作</string>
+    <string name="msg_load_is_null">读取失败，可能已被删除</string>
+    <string name="msg_load_audio_fail">读取语音文件失败</string>
+    <string name="msg_login_email_error">无效的邮箱地址</string>
+    <string name="msg_login_email_null">请输入邮箱</string>
+    <string name="msg_login_pwd_null">请输入密码</string>
+    <string name="msg_login_success">登录成功</string>
+    <string name="msg_login_fail">登录失败</string>
+    <string name="msg_login_error">用户未登录 或 密码错误</string>
+    <string name="msg_load_userface_fail">用户头像加载失败</string>
+    <string name="msg_load_image_fail">图片加载失败</string>
+    <string name="msg_read_detail_fail">无法获取文章信息</string>
+    <string name="msg_noaccess_delete">您没有删除权限</string>
+    
+    <string name="msg_choose_image">选择图片</string>
+    
+    <string name="save_image_error">无法保存照片，请检查SD卡是否挂载</string>
+    
+    <string name="clean_cache_success">缓存清除成功</string>
+    <string name="clean_cache_fail">缓存清除失败</string>
+</resources>

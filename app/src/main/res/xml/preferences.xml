@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+	    android:title="@string/settings_category_accountmanager">
+	    <Preference 
+	        android:title="@string/settings_title_login" 
+	        android:key="account" />
+	    <Preference 
+	        android:title="@string/settings_title_myinfo" 
+	        android:key="myinfo" 
+	        android:summary="@string/settings_summary_myinfo"/>
+    </PreferenceCategory>
+    <PreferenceCategory 
+	    android:title="@string/settings_category_function">
+	    <EditTextPreference
+	        android:dialogTitle="@string/settings_cache_dialog_title"
+	        android:title="@string/settings_title_saveimagepath"
+	        android:key="saveimagepath"
+	        android:summary="@string/settings_summary_saveimagepath"/>
+		<CheckBoxPreference 
+		    android:title="@string/settings_title_httpslogin" 
+	        android:key="httpslogin" 
+	        android:summary="@string/settings_summary_httpslogin_off" 
+		    android:defaultValue="false"/>
+		<CheckBoxPreference 
+		    android:title="@string/settings_title_loadimage" 
+	        android:key="loadimage" 
+	        android:summary="@string/settings_summary_loadimage_on" 
+		    android:defaultValue="true"/>
+		<CheckBoxPreference 
+		    android:title="@string/settings_title_voice" 
+	        android:key="voice" 
+	        android:summary="@string/settings_summary_voice_on" 
+		    android:defaultValue="true"/>
+		<CheckBoxPreference 
+		    android:title="@string/settings_title_checkup" 
+	        android:key="checkup" 
+	        android:summary="@string/settings_summary_checkup" 
+		    android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory 
+	    android:title="@string/settings_category_cache">
+	    <Preference 
+	        android:title="@string/settings_title_cache" 
+	        android:key="cache" 
+	        android:summary="0KB"/>
+    </PreferenceCategory>
+    <PreferenceCategory 
+	    android:title="@string/settings_category_other">
+        <Preference 
+	        android:title="@string/settings_title_feedback" 
+	        android:key="feedback" 
+	        android:summary="@string/settings_summary_feedback"/>
+        <Preference 
+	        android:title="@string/settings_title_update" 
+	        android:key="update" 
+	        android:summary="@string/settings_summary_update"/>
+        <Preference 
+	        android:title="@string/settings_title_about" 
+	        android:key="about" 
+	        android:summary="@string/settings_summary_about"/>
+    </PreferenceCategory>
+</PreferenceScreen>

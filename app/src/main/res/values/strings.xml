@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<resources>
+
+    <string name="app_name">CodeBoy开源中国</string>
+    
+    <string name="main_menu_login">用户登录</string>
+    <string name="main_menu_logout">注销登录</string>
+    <string name="main_menu_myinfo">我的资料</string>
+    <string name="main_menu_software">开源软件</string>
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_sweep">扫一扫</string>
+    <string name="main_menu_picshow">显示图片</string>
+    <string name="main_menu_picnoshow">隐藏图片</string>
+    <string name="main_menu_cache">清除缓存</string>
+    <string name="main_menu_email">意见反馈</string>
+    <string name="main_menu_about">关于我们</string>
+    <string name="main_menu_setting">系统设置</string>
+    <string name="main_menu_exit">退出程序</string>
+    <string name="main_menu_login_tips">点击登录</string>
+    
+    <string name="frame_title_news">资讯</string>
+    <string name="frame_title_news_lastest">最新资讯</string>
+    <string name="frame_title_news_blog">最新博客</string>
+    <string name="frame_title_news_recommend">推荐阅读</string>
+    <string name="frame_title_question_ask">问答</string>
+    <string name="frame_title_question_share">分享</string>
+    <string name="frame_title_question_other">综合</string>
+    <string name="frame_title_question_job">职业</string>
+    <string name="frame_title_question_site">站务</string>
+    <string name="frame_title_tweet">动弹</string>
+    <string name="frame_title_tweet_lastest">最新动弹</string>
+    <string name="frame_title_tweet_hot">热门动弹</string>
+    <string name="frame_title_tweet_my">我的动弹</string>
+    <string name="frame_title_tweet_send">动弹一下</string>
+    <string name="frame_title_active">我的空间</string>
+    <string name="frame_title_active_lastest">最新动态</string>
+    <string name="frame_title_active_atme">\@我</string>
+    <string name="frame_title_active_comment">评论</string>
+    <string name="frame_title_active_myself">我自己</string>
+    <string name="frame_title_active_message">留言</string>
+    
+    <string name="frame_title_software">开源软件</string>
+    <string name="frame_title_software_recommon">推荐</string>
+    <string name="frame_title_software_lastest">最新</string>
+    <string name="frame_title_software_hot">最热</string>
+    <string name="frame_title_software_china">国产</string>
+    
+    <string name="footbar_refresh">刷新</string>
+    <string name="footbar_comment">评论</string>
+    <string name="footbar_share">分享</string>
+    <string name="footbar_favorite">收藏</string>
+    <string name="footbar_more">更多</string>
+    
+    <string name="login_dialog_title">登录开源中国</string>
+    <string name="login_dialog_logo">开源中国</string>
+    <string name="login_dialog_account">账号:</string>
+    <string name="login_dialog_account_hint">输入账号/邮箱</string>
+    <string name="login_dialog_password">密码:</string>
+    <string name="login_dialog_password_hint">输入密码</string>
+    <string name="login_dialog_reg">注册帐号</string>
+    <string name="login_dialog_login">登  录</string>
+    <string name="login_dialog_rememberPW">记住密码:</string>
+    <string name="login_dialog_autoLogin">自动登录:</string>
+    <string name="login_dialog_rememberMe">记住我的登录信息</string>
+    <string name="login_dialog_tips">正在登录,请稍候...</string>
+    
+    <string name="news_detail_head_title">新闻正文</string>
+    <string name="news_detail_lable_pub">发布于</string>
+    <string name="news_detail_publish_comment">发表评论</string>
+    
+    <string name="question_detail_head_title">帖子正文</string>
+    <string name="question_pub_head_title">我要发帖</string>
+    <string name="blog_detail_head_title">博客正文</string>
+    <string name="software_detail_head_title">软件详情</string>
+    <string name="tweet_detail_head_title">动弹详情</string>
+    <string name="tweet_pub_head_title">动弹一下</string>
+    <string name="tweet_chatfooter_cancel_rcd">手指上滑，取消发送</string>
+    <string name="tweet_chatfooter_cancel_rcd_release">松开手指，取消发送</string>
+    <string name="tweet_chatfooter_too_short">录音时间太短</string>
+    <string name="message_detail_head_title">我和%s的对话</string>
+    <string name="user_center_head_title">用户空间</string>
+    
+    <string name="user_friend_head_title">我的好友</string>
+    <string name="user_friend_follower">关注(%d)</string>
+    <string name="user_friend_fans">粉丝(%d)</string>
+    
+    <string name="comment_send">发表</string>
+    <string name="comment_original_text">原文</string>
+    <string name="comment_list_head_title">网友评论</string>
+    <string name="comment_listitem_type">发布于</string>
+    <string name="comment_pub_head_title">评论回复</string>
+    <string name="comment_pub_content_hint">输入评论</string>
+    <string name="comment_reply_title">---共有 %d 条评论---</string>
+    <string name="comment_notnull_tips">评论不能为空</string>
+    <string name="comment_publish_loading">正在发表，请稍候...</string>
+    <string name="comment_publish_success">评论成功!</string>
+    <string name="comment_answer_view_count">%1$d回%2$d阅</string>
+    
+    <string name="software_detail_license">授权协议：</string>
+    <string name="software_detail_language">开发语言：</string>
+    <string name="software_detail_os">操作系统：</string>
+    <string name="software_detail_recordtime">收录时间：</string>
+    <string name="software_detail_homepage">软件首页</string>
+    <string name="software_detail_download">软件下载</string>
+    <string name="software_detail_document">软件文档</string>
+    
+    <string name="img_from_camera">手机拍照</string>
+    <string name="img_from_album">手机相册</string>
+    <string name="ui_insert_image">插入图片</string>  
+    
+    <string name="setting_head_title">系统设置</string>
+    <string name="capture_head_title">扫一扫</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+
+    <string name="userinfo_title">我的资料</string>
+    <string name="userinfo_edit_avatar">编辑头像</string>
+    <string name="userinfo_favorites">收藏：</string>
+    <string name="userinfo_followers">关注：</string>
+    <string name="userinfo_fans">粉丝：</string>
+    <string name="userinfo_join_time">加入时间：</string>
+    <string name="userinfo_area">所在地区：</string>
+    <string name="userinfo_dev_platform">开发平台：</string>
+    <string name="userinfo_expertise">专长领域：</string>
+    <string name="userinfo_upload_avatar_title">上传头像</string>
+    <string name="userinfo_upload_avatar_choose">选择图片</string>
+    
+    <string name="publish_post_headline_title">标题：</string>
+    <string name="publish_post_input_title_hint">输入标题</string>
+    <string name="publish_post_headline_category">分类：</string>
+    <string name="publish_post_headline_question">请对问题进行详细描述：</string>
+    <string name="publish_post_input_question_hint">输入提问内容</string>
+    <string name="publish_post_email_notify">有人回答时邮件通知我</string>
+    <string name="publish_post_button">发布</string>
+    <string name="publish_post_wait_tips">正在发布中...</string>
+    <string name="publish_post_error_tips1">请输入标题</string>
+    <string name="publish_post_error_tips2">请输入提问内容</string>
+    
+    <string name="publish_tweet_input_content_hint">请输入动弹内容</string>
+    <string name="publish_tweet_wait_tips">动弹后台发布中···</string>
+    <string name="publish_tweet_default_voice_text">\#语音分享\#</string>
+    <string name="publish_tweet_voice_tips">按住  说话</string>
+    <string name="publish_tweet_voice_cancel_tips">松开  结束</string>
+    <string name="publish_tweet_voice_time_tips">录音时间还剩下%1$d秒</string>
+    <string name="publish_tweet_at_text">\@请输入用户名</string>
+    <string name="publish_tweet_software_text">\#请输入软件名\#</string>
+    <string name="publish_tweet_success">动弹发布成功!</string>
+    <string name="publish_tweet_fail">动弹发布失败...</string>
+    
+    <string name="favorite_headline_title">我的收藏夹</string>
+    <string name="favorite_software_title">软件</string>
+    <string name="favorite_post_title">话题</string>
+    <string name="favorite_code_title">代码</string>
+    <string name="favorite_blog_title">博客</string>
+    <string name="favorite_news_title">资讯</string>
+    
+    <string name="friends_headline_title">我的好友</string>
+    <string name="friends_follower">关注</string>
+    <string name="friends_fans">粉丝</string>
+    
+    <string name="settings_category_accountmanager">账号管理</string>
+    <string name="settings_category_function">功能设置</string>
+    <string name="settings_category_cache">缓存设置</string>
+    <string name="settings_category_other">其他</string>
+    
+    <string name="settings_title_login">用户登录</string>
+    <string name="settings_title_myinfo">我的资料</string>
+    <string name="settings_title_saveimagepath">图片保存路径</string>
+    <string name="settings_title_httpslogin">HTTPS登录</string>
+    <string name="settings_title_loadimage">加载图片</string>
+    <string name="settings_title_voice">提示声音</string>
+    <string name="settings_title_checkup">启动检查更新</string>
+    <string name="settings_title_cache">清除缓存</string>
+    <string name="settings_title_feedback">意见反馈</string>
+    <string name="settings_title_update">新版本检测</string>
+    <string name="settings_title_about">关于我们</string>
+    
+    <string name="settings_summary_myinfo">我的信息、收藏、粉丝...</string>
+    <string name="settings_summary_saveimagepath">设置图片的保存路径</string>
+    <string name="settings_summary_imagepath">目前路径:%1$s</string>
+    <string name="settings_summary_httpslogin_on">当前以HTTPS登录</string>
+    <string name="settings_summary_httpslogin_off">当前以HTTP登录</string>
+    <string name="settings_summary_loadimage_on">页面加载图片 (默认在WIFI网络下加载图片)</string>
+    <string name="settings_summary_loadimage_off">页面不加载图片 (默认在WIFI网络下加载图片)</string>
+    <string name="settings_summary_voice_on">已开启提示声音</string>
+    <string name="settings_summary_voice_off">已关闭提示声音</string>
+    <string name="settings_summary_checkup">启动程序时检查版本更新</string>
+    <string name="settings_summary_feedback">用户意见反馈</string>
+    <string name="settings_summary_update">检测是否有新版本</string>
+    <string name="settings_summary_about">关于我们、版权信息</string>
+    
+    <string name="settings_cache_dialog_title">输入图片保存路径</string>
+    <string name="settings_saveimage_path_error1">设置路径失败，这是一个文件!</string>
+    <string name="settings_saveimage_path_error2">设置路径失败，创建文件夹失败!</string>
+    <string name="settings_saveimage_path_error3">设置路径失败，该目录不可写!</string>
+</resources>

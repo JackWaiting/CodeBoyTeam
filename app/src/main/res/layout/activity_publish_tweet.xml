@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2014. CodeBoyTeam
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tweet_pub_record_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/tweet_pub_record_status_show"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="invisible" >
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                layout="@layout/tweet_pub_voice_rcd_hint_window" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tweet_pub_record_status_time_mes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20.0dip"
+            android:background="@drawable/tweet_voice_rcd_hint_bg"
+            android:gravity="center"
+            android:padding="10.0dip"
+            android:text="录音时间还剩%d秒"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/tweet_pub_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="visible" >
+
+        <EditText
+            android:id="@+id/tweet_pub_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoLink="web"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="@string/publish_tweet_input_content_hint" />
+
+        <ImageView
+            android:id="@+id/tweet_pub_image"
+            android:layout_width="60.0dip"
+            android:layout_height="45.0dip"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/tweet_pub_clearwords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:background="@drawable/clearwords_bg"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tweet_pub_numberwords"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="160"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:src="@drawable/clearwords_icon" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <include layout="@layout/tweet_pub_footer"/>
+</LinearLayout>
